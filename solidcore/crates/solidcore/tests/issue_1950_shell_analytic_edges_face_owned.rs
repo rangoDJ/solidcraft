@@ -112,7 +112,6 @@ fn solidcraft_fixes() -> UpstreamFixes {
     f.slice_coincident_faces_sheet_side = true;
     f.boolean_outer_shell_first = true;
     f.topology_failed_evaluations_propagate = true;
-    f.heal_stage3_failures_propagate = true;
     f.cover_refuses_folded_continuation = true;
     f.boolean_vertex_by_best_crossing = true;
     f.boolean_cleanup_removes_slits = true;
@@ -125,7 +124,6 @@ fn solidcraft_fixes() -> UpstreamFixes {
     f.imprint_extends_edge_to_proto_vertex = true;
     f.fillet_point_step_per_point = true;
     f.analytic_copy_keeps_parameterization = true;
-    f.precise_properties_body_length_scale = true;
     f.offset_extension_from_base = true;
     f.corner_blend_stays_inside_neighbours = true;
     f.fillet_cleanup_keeps_target_faces = true;
